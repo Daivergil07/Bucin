@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apa Yah</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url(wXWjxPH.jpg);
+            margin: 0;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .heart {
+            font-size: 3em;
+            color: #ff69b4;
+            animation: bounce 0.5s infinite alternate;
+        }
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Bucin Sejati</h1>
+    <p>Untuk kamu yang selalu ada di pikiranku,</p>
+    <p>Setiap detik bersamamu adalah anugerah.</p>
+    <div class="heart">❤️</div>
+    <p>Apakah kamu mau jadi pacarku?</p>
+    <button onclick="showLove()">Kirim Cinta!</button>
+</div>
+
+<script>
+    function showLove() {
+        alert("Terima kasih sudah menjadi bagian dari hidupku! 💖");
+    }
+</script>
+
+</body>
+</html>
